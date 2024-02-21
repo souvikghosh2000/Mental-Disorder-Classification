@@ -1,0 +1,107 @@
+{
+    "os": "Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-02-19T16:37:31.026807",
+    "startedAt": "2024-02-19T16:37:29.105375",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/souvikghosh2000/Mental-Disorder-Classification.git",
+        "commit": "4c6f74722f38c8905b9842eb8dbd6954205296c8"
+    },
+    "email": "\u201cghsouvik2000@gmail.com\u201d",
+    "root": "/mnt/d/WSL/Mental-Disorder-Classification",
+    "host": "LAPTOP-UGUDUH62",
+    "username": "souvik",
+    "executable": "/home/souvik/miniconda3/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3293.733,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3293.733,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.733,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.733,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.733,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.733,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.733,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.733,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.733,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.733,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.733,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.733,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.733,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 3.5803680419921875
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 3.5011215209960938
+    }
+}

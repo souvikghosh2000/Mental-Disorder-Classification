@@ -1,0 +1,87 @@
+2024-02-19 22:11:28,367 INFO    MainThread:29347 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-02-19 22:11:28,368 INFO    MainThread:29347 [wandb_setup.py:_flush():76] Configure stats pid to 29347
+2024-02-19 22:11:28,368 INFO    MainThread:29347 [wandb_setup.py:_flush():76] Loading settings from /home/souvik/.config/wandb/settings
+2024-02-19 22:11:28,369 INFO    MainThread:29347 [wandb_setup.py:_flush():76] Loading settings from /mnt/d/WSL/Mental-Disorder-Classification/wandb/settings
+2024-02-19 22:11:28,369 INFO    MainThread:29347 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-02-19 22:11:28,370 INFO    MainThread:29347 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-02-19 22:11:28,372 INFO    MainThread:29347 [wandb_init.py:_log_setup():526] Logging user logs to /mnt/d/WSL/Mental-Disorder-Classification/wandb/run-20240219_221128-Table/logs/debug.log
+2024-02-19 22:11:28,373 INFO    MainThread:29347 [wandb_init.py:_log_setup():527] Logging internal logs to /mnt/d/WSL/Mental-Disorder-Classification/wandb/run-20240219_221128-Table/logs/debug-internal.log
+2024-02-19 22:11:28,374 INFO    MainThread:29347 [wandb_init.py:_jupyter_setup():472] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7ffb0c3a3990>
+2024-02-19 22:11:28,375 INFO    MainThread:29347 [wandb_init.py:init():566] calling init triggers
+2024-02-19 22:11:28,375 INFO    MainThread:29347 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-02-19 22:11:28,376 INFO    MainThread:29347 [wandb_init.py:init():616] starting backend
+2024-02-19 22:11:28,377 INFO    MainThread:29347 [wandb_init.py:init():620] setting up manager
+2024-02-19 22:11:28,387 INFO    MainThread:29347 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-02-19 22:11:28,389 INFO    MainThread:29347 [wandb_init.py:init():628] backend started and connected
+2024-02-19 22:11:28,409 INFO    MainThread:29347 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2024-02-19 22:11:28,411 INFO    MainThread:29347 [wandb_run.py:_label_probe_notebook():1305] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-02-19 22:11:28,412 INFO    MainThread:29347 [wandb_init.py:init():720] updated telemetry
+2024-02-19 22:11:28,843 INFO    MainThread:29347 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-02-19 22:12:40,491 WARNING MainThread:29347 [wandb_init.py:init():1198] interrupted
+Traceback (most recent call last):
+  File "/home/souvik/miniconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1176, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "/home/souvik/miniconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 756, in init
+    result = run_init_handle.wait(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/souvik/miniconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/souvik/miniconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/souvik/miniconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/souvik/miniconda3/lib/python3.11/threading.py", line 622, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/souvik/miniconda3/lib/python3.11/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2024-02-19 22:12:45,733 INFO    MainThread:29347 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-02-19 22:12:45,735 INFO    MainThread:29347 [wandb_setup.py:_flush():76] Configure stats pid to 29347
+2024-02-19 22:12:45,737 INFO    MainThread:29347 [wandb_setup.py:_flush():76] Loading settings from /home/souvik/.config/wandb/settings
+2024-02-19 22:12:45,738 INFO    MainThread:29347 [wandb_setup.py:_flush():76] Loading settings from /mnt/d/WSL/Mental-Disorder-Classification/wandb/settings
+2024-02-19 22:12:45,739 INFO    MainThread:29347 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-02-19 22:12:45,740 INFO    MainThread:29347 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-02-19 22:12:45,742 INFO    MainThread:29347 [wandb_init.py:_log_setup():526] Logging user logs to /mnt/d/WSL/Mental-Disorder-Classification/wandb/run-20240219_221245-table/logs/debug.log
+2024-02-19 22:12:45,744 INFO    MainThread:29347 [wandb_init.py:_log_setup():527] Logging internal logs to /mnt/d/WSL/Mental-Disorder-Classification/wandb/run-20240219_221245-table/logs/debug-internal.log
+2024-02-19 22:12:45,745 INFO    MainThread:29347 [wandb_init.py:init():566] calling init triggers
+2024-02-19 22:12:45,746 INFO    MainThread:29347 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-02-19 22:12:45,747 INFO    MainThread:29347 [wandb_init.py:init():616] starting backend
+2024-02-19 22:12:45,748 INFO    MainThread:29347 [wandb_init.py:init():620] setting up manager
+2024-02-19 22:12:45,759 INFO    MainThread:29347 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-02-19 22:12:45,761 INFO    MainThread:29347 [wandb_init.py:init():628] backend started and connected
+2024-02-19 22:12:45,782 INFO    MainThread:29347 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2024-02-19 22:12:45,784 INFO    MainThread:29347 [wandb_run.py:_label_probe_notebook():1305] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-02-19 22:12:45,785 INFO    MainThread:29347 [wandb_init.py:init():720] updated telemetry
+2024-02-19 22:12:46,038 INFO    MainThread:29347 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-02-19 22:13:01,332 WARNING MainThread:29347 [wandb_init.py:init():1198] interrupted
+Traceback (most recent call last):
+  File "/home/souvik/miniconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1176, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "/home/souvik/miniconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 756, in init
+    result = run_init_handle.wait(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/souvik/miniconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/souvik/miniconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/souvik/miniconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/souvik/miniconda3/lib/python3.11/threading.py", line 622, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/souvik/miniconda3/lib/python3.11/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

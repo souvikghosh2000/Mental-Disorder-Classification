@@ -1,0 +1,43 @@
+2024-02-19 22:12:45,768 INFO    StreamThr :29655 [internal.py:wandb_internal():86] W&B internal server running at pid: 29655, started at: 2024-02-19 22:12:45.763747
+2024-02-19 22:12:45,773 DEBUG   HandlerThread:29655 [handler.py:handle_request():146] handle_request: status
+2024-02-19 22:12:45,788 INFO    WriterThread:29655 [datastore.py:open_for_write():87] open: /mnt/d/WSL/Mental-Disorder-Classification/wandb/run-20240219_221245-table/run-table.wandb
+2024-02-19 22:12:45,793 DEBUG   SenderThread:29655 [sender.py:send():382] send: header
+2024-02-19 22:12:46,041 DEBUG   SenderThread:29655 [sender.py:send():382] send: run
+2024-02-19 22:12:46,719 ERROR   SenderThread:29655 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-02-19 22:12:46,721 ERROR   SenderThread:29655 [internal_api.py:execute():374] {"errors":[{"message":"run ghsouvikprof/Mental-Disorder-Classification/table was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-02-19 22:12:51,042 DEBUG   HandlerThread:29655 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 22:12:52,496 ERROR   SenderThread:29655 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-02-19 22:12:52,497 ERROR   SenderThread:29655 [internal_api.py:execute():374] {"errors":[{"message":"run ghsouvikprof/Mental-Disorder-Classification/table was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-02-19 22:12:54,966 ERROR   SenderThread:29655 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-02-19 22:12:54,968 ERROR   SenderThread:29655 [internal_api.py:execute():374] {"errors":[{"message":"run ghsouvikprof/Mental-Disorder-Classification/table was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-02-19 22:12:54,969 INFO    SenderThread:29655 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/souvik/miniconda3/lib/python3.11/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/souvik/miniconda3/lib/python3.11/site-packages/wandb/sdk/internal/internal_api.py", line 369, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/souvik/miniconda3/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/souvik/miniconda3/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/souvik/miniconda3/lib/python3.11/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/home/souvik/miniconda3/lib/python3.11/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+2024-02-19 22:12:56,044 DEBUG   HandlerThread:29655 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 22:12:59,998 ERROR   SenderThread:29655 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-02-19 22:13:00,000 ERROR   SenderThread:29655 [internal_api.py:execute():374] {"errors":[{"message":"run ghsouvikprof/Mental-Disorder-Classification/table was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-02-19 22:13:01,046 DEBUG   HandlerThread:29655 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 22:13:10,151 ERROR   SenderThread:29655 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-02-19 22:13:10,152 ERROR   SenderThread:29655 [internal_api.py:execute():374] {"errors":[{"message":"run ghsouvikprof/Mental-Disorder-Classification/table was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-02-19 22:13:21,436 WARNING StreamThr :29655 [internal.py:is_dead():414] Internal process exiting, parent pid 29347 disappeared
+2024-02-19 22:13:21,438 ERROR   StreamThr :29655 [internal.py:wandb_internal():152] Internal process shutdown.
+2024-02-19 22:13:21,818 INFO    MainThread:29655 [internal.py:handle_exit():76] Internal process exited
+2024-02-19 22:13:21,819 INFO    MainThread:29655 [internal.py:handle_exit():76] Internal process exited
+2024-02-19 22:13:21,877 INFO    WriterThread:29655 [datastore.py:close():296] close: /mnt/d/WSL/Mental-Disorder-Classification/wandb/run-20240219_221128-Table/run-Table.wandb
+2024-02-19 22:13:21,884 INFO    HandlerThread:29655 [handler.py:finish():869] shutting down handler
